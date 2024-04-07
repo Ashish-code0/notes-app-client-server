@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import  mongoose from 'mongoose';
 import cors from 'cors';
 dotenv.config();
-import Note from './models/Note';
+import Note from './models/Note.js';
 
 
 const app = express();
