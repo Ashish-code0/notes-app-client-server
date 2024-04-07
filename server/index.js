@@ -20,6 +20,7 @@ const connectDB = async () => {
 
 connectDB();
 
+// TO use a port available on the environment variable 
 const PORT = process.env.PORT || 5000;
 
 
