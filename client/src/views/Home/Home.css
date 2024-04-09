@@ -1,4 +1,28 @@
 h1{
     text-align: center;
+    color: #003f76;
+}
+.app-body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #b3dbff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-to-newNote{
+    background-color: #058aff;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px auto;
+    margin-left: 83%;
+    border-radius: 20px;
+    
+}
+
+.link-to-newNote{
+    text-decoration: none;
     color: white;
+    font-size: 15px;
+    font-weight: 700;
+    
 }

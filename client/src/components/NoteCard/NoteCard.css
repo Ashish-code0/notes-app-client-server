@@ -3,13 +3,12 @@
     padding: 10px 40px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.344);
-    background-color: #b3dbff;
     position: relative;
-    font-family:Arial, Helvetica, sans-serif;
-
 }
-
+.note-card:hover{
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.274);
+    background-color: #e1f0ff;
+}
 .note-card-title{
     color: #003f76;
     font-size: 25px;
@@ -20,10 +19,8 @@
     font-size: 18px;
     width: 80%;
     font-weight: 600;
-    background-color: white;
-    color: #058aff;
+    color: #0059fd;
     border-radius: 10px;
-    padding: 20px;
 }
 .note-card-date{
     position: absolute;

@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react';
 import axios from 'axios';
 import './NewNote.css';
 import toast from 'react-hot-toast';
+import {Link} from 'react-router-dom'
 
 function NewNote() {
   const [title, setTitle] = useState('');
@@ -41,6 +42,10 @@ function NewNote() {
             Add Note
           </button>
         </form>
+
+        <button type='button' className='btn-to-home'>
+            <Link  to='/' className='link-to-home'> See All Notes </Link>
+        </button>
     </div>
   )
 }

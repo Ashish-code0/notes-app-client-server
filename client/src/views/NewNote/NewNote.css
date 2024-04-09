@@ -48,3 +48,21 @@
     cursor: pointer;
 
 }
+
+.btn-to-home{
+    background-color: #058aff;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px auto;
+    margin-left: 80%;
+    border-radius: 20px;
+    
+}
+
+.link-to-home{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
