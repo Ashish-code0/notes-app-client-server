@@ -1,0 +1,47 @@
+.note-card{
+    margin: 10px 20px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.344);
+    background-color: #b3dbff;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.note-card-title{
+    color: #003f76;
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+.note-card-note{
+    font-size: 18px;
+    width: 80%;
+    font-weight: 600;
+    background-color: white;
+    color: #058aff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.note-card-date{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    text-align: end;
+    background-color: #058aff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.delete-icon{
+    background-color: #003f76;
+    padding: 5px 15px;
+    position: absolute;
+    cursor: pointer;
+    right: 40px;
+    border-radius: 40px;
+    top: 20px;
+}
