@@ -22,7 +22,9 @@ const router = createBrowserRouter([
     element : <UpdateNote/> 
   }
 
-])
+]);
+
+// the _redirects is used to provide a root to all pages incase of manual url change or refreshing 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
