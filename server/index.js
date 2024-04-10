@@ -73,7 +73,9 @@ app.post('/notes', async (req, res) => {
         message : "Note added successfully.",
         data : newNote
     })
-})
+});
+
+
 
 app.get('/notes', async (req, res) => {
 
@@ -84,6 +86,8 @@ app.get('/notes', async (req, res) => {
         data : notes
     })
 });
+
+
 
 app.get('/notes/:id', async (req, res) => {
     const {id} = req.params;  
@@ -97,6 +101,8 @@ app.get('/notes/:id', async (req, res) => {
         data : note
     })
 });
+
+
 
 app.put('/notes/:id', async (req, res) => {
     const {id} = req.params;
@@ -115,7 +121,9 @@ app.put('/notes/:id', async (req, res) => {
         message : "Note updated successfully",
         data : null
     })
-})
+});
+
+
 
 app.delete('/notes/:id', async (req, res) => {
     const {id} = req.params;
@@ -126,7 +134,9 @@ app.delete('/notes/:id', async (req, res) => {
         message : "Note deleted successfully",
         data : null 
     })
-})
+});
+
+
 
 app.listen(PORT, () => {
     console.log(`Server is running on port: ${PORT}`)

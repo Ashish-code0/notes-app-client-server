@@ -1,4 +1,4 @@
-import   {model, Schema}  from 'mongoose';
+import {model, Schema}  from 'mongoose';
 
 
 //This noteSchema acts as a plan for the structure of our data 
