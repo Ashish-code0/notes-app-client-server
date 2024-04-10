@@ -5,7 +5,6 @@ h1{
 .app-body{
     width: 80%;
     margin: 0 auto;
-    background-color: #b3dbff;
     padding: 20px;
     border-radius: 10px;
 }
@@ -14,9 +13,8 @@ h1{
     padding: 10px 20px;
     border: none;
     margin: 20px auto;
-    margin-left: 83%;
-    border-radius: 20px;
-    
+    margin-left: 80%;
+    border-radius: 20px;   
 }
 
 .link-to-newNote{

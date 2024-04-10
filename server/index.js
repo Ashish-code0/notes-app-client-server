@@ -85,10 +85,10 @@ app.get('/notes', async (req, res) => {
     })
 });
 
-app.get('notes/:id', async (req, res) => {
+app.get('/notes/:id', async (req, res) => {
     const {id} = req.params;  
 
-    const note = Note.findById(id);
+     const note = await Note.findById(id);
     //const note = Note.findOne({_id : id});   
 
     res.json({

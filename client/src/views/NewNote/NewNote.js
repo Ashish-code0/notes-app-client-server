@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 function NewNote() {
   const [title, setTitle] = useState('');
   const [note, setNote] = useState('');
-  const [date, setDate] = useState();
+  const [date, setDate] = useState('');
 
   const addNote = async () => {
     const response = await axios.post(`${process.env.REACT_APP_API_URL}/notes`, {
@@ -22,18 +22,18 @@ function NewNote() {
 
   return (
     <div>
-        <h1> NewNote </h1>
+        <h1> New Note </h1>
         <form className='form-body'>
-          <input type='text'className='title-input' placeholder='Enter Title' onChange={
+          <input type='text'className='title-input' value={title} placeholder='Enter Title' onChange={
             (e) => {
             setTitle(e.target.value)
           }}/>
-          <textarea className='note-input' onChange={(e) => {
+          <textarea className='note-input' value={note} onChange={(e) => {
             setNote(e.target.value)
           }}>
           
           </textarea> 
-          <input type='text' className='date-input' placeholder='Enter Date' onChange={(e) => {
+          <input type='text' className='date-input' value={date} placeholder='Enter Date' onChange={(e) => {
             setDate(e.target.value);
             console.log({date})
           }}/>

@@ -2,6 +2,7 @@
     margin: 10px 20px;
     padding: 10px 40px;
     border: none;
+    background-color: #e1f0ff;
     border-radius: 10px;
     position: relative;
 }
@@ -29,16 +30,27 @@
     text-align: end;
     background-color: #058aff;
     color: white;
-    padding: 5px 15px;
+    padding: 5px 30px;
     border-radius: 15px;
 }
 
 .delete-icon{
     background-color: #003f76;
     padding: 5px 15px;
+    height: 20px;
     position: absolute;
     cursor: pointer;
     right: 40px;
     border-radius: 40px;
     top: 20px;
+}
+.edit-icon{
+    padding: 5px 15px;
+    position: absolute;
+    cursor: pointer;
+    right: 100px;
+    top: 20px;
+    height: 20px;
+    background-color: #003f76;
+    border-radius: 40px;
 }
