@@ -21,13 +21,12 @@ function UpdateNote() {
         console.log('creating response');
         const response = await axios.get(`${process.env.REACT_APP_API_URL}/notes/${id}`) 
         
-        console.log('response-created')
+
         setTitle(response.data.data.title);
-        console.log('title-set')
+
         setNote(response.data.data.note);
-        console.log('note-set')
+
         setDate(response.data.data.date);
-        console.log('date-set')
     };
 
     const updateNote = async () => {
