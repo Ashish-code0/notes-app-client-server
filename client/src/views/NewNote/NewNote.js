@@ -24,7 +24,7 @@ function NewNote() {
     <div>
         <h1> New Note </h1>
         <form className='form-body'>
-          <input type='text'className='title-input' value={title} placeholder='Enter Title' onChange={
+          <input type='text' className='title-input' value={title} placeholder='Enter Title' onChange={
             (e) => {
             setTitle(e.target.value)
           }}/>
